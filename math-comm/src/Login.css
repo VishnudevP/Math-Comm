@@ -1,0 +1,30 @@
+.login > div > img {
+  object-fit: contain;
+  height: 420px;
+}
+
+.login > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__logo {
+  align-items: center;
+}
+
+.etLogo {
+  display: block;
+  margin-top: auto;
+}
+
+.login {
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(48, 84, 136, 1) 54%,
+    rgba(3, 78, 187, 1) 100%
+  );
+}
